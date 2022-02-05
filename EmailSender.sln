@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailSender.API", "EmailSender\EmailSender.API.csproj", "{E43F2836-3E44-4EA9-BA6C-8EFF18918A2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailSender.Infrastructure", "EmailSender.Infrastructure\EmailSender.Infrastructure.csproj", "{B1B1E214-ECA5-4F1D-8CA2-C02EAAA1A8FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailSender.Core", "EmailSender.Core\EmailSender.Core.csproj", "{CCA1290F-7921-4A93-A029-1EEAD2007690}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E43F2836-3E44-4EA9-BA6C-8EFF18918A2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E43F2836-3E44-4EA9-BA6C-8EFF18918A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E43F2836-3E44-4EA9-BA6C-8EFF18918A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E43F2836-3E44-4EA9-BA6C-8EFF18918A2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1B1E214-ECA5-4F1D-8CA2-C02EAAA1A8FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B1E214-ECA5-4F1D-8CA2-C02EAAA1A8FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B1E214-ECA5-4F1D-8CA2-C02EAAA1A8FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B1E214-ECA5-4F1D-8CA2-C02EAAA1A8FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCA1290F-7921-4A93-A029-1EEAD2007690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCA1290F-7921-4A93-A029-1EEAD2007690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCA1290F-7921-4A93-A029-1EEAD2007690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCA1290F-7921-4A93-A029-1EEAD2007690}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {645EEDC2-60EE-4D18-8EC5-EAA5281E88E8}
+	EndGlobalSection
+EndGlobal
